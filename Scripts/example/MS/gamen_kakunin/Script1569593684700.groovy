@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kazurayam.katalon.utils.HighlightElement as HE
 import com.kazurayam.katalon.utils.HideElement as HI
 import com.kms.katalon.core.testobject.TestObject as TestObject
