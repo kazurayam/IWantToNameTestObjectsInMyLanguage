@@ -1,6 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kazurayam.katalon.utils.HighlightElement as HE
+import com.kazurayam.katalon.utils.HideElement as HI
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 def check(TestObject tobj) {
@@ -14,6 +15,7 @@ WebUI.navigateToUrl(url)
 WebUI.waitForPageLoad(10)
 
 WebUI.scrollToElement(findTestObject('MS/FundData/tesuuryou_jouhou/h2_tesuuryou_jouhou'), 1)
+HI.hide(findTestObject('MS/FundData/nav'))
 check(findTestObject('MS/FundData/tesuuryou_jouhou/kaiyakuji_shintaku_zaisan_ryuuhogaku'))
 check(findTestObject('MS/FundData/tesuuryou_jouhou/kaiyakuji_tesuuryou_gaku'))
 check(findTestObject('MS/FundData/tesuuryou_jouhou/kaiyakuji_tesuuryou_ritsu'))
