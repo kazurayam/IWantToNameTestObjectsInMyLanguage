@@ -3,7 +3,7 @@ I want to name Test Objects in my native language
 
 # Problem to solve
 
-Katalon Studio upto version 7 has a prbolem of Internationalization. I can not name a Test Object in my native language (ja_JP).
+[Katalon Studio](https://www.katalon.com/) upto version 7 has a prbolem of Internationalization. I can not name a Test Object in my native language (ja_JP).
 When I try to use characters which are native for me, Katalon Studio rejects it.
 
 ![CannotNameItUsingJapaneseCharacters](docs/images/CannotNameItUsingJapaneseCharacters.png)
