@@ -1,9 +1,9 @@
-I want to name Test Objects in my language (Japanese)
+I want to name Test Objects in my native language
 ==========
 
 # Problem to solve
 
-Katalon Studio upto version 7 has a prbolem of Internationalization. I can not name a Test Object in my language (ja_JP).
+Katalon Studio upto version 7 has a prbolem of Internationalization. I can not name a Test Object in my native language (ja_JP).
 When I try to use characters which are native for me, Katalon Studio rejects it.
 
 ![CannotNameItUsingJapaneseCharacters](docs/images/CannotNameItUsingJapaneseCharacters.png)
@@ -14,7 +14,7 @@ October 1, 2019, the consumption tax rate will increase from 8% to 10%. Therefor
 
 In the target web pages, I see the following portion where commissions of a finantial instrument are displayed.
 
-![UAT](docs/images/UAT.png)
+![AUT](docs/images/AUT.png)
 
 I wanted to verify the decimals displayed there. So I developed a Katalon Studio test.
 
