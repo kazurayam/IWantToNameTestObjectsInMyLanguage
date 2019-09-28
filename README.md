@@ -3,8 +3,7 @@ I want to name Test Objects in my language (Japanese)
 
 # Problem to solve
 
-Katalon Studio upto version 7 has the Internationalization problem.
-I can not name a Test Object in my language (ja_JP).
+Katalon Studio upto version 7 has a prbolem of Internationalization. I can not name a Test Object in my language (ja_JP).
 When I try to use characters which are native for me, Katalon Studio rejects it.
 
 ![CannotNameItUsingJapaneseCharacters](docs/images/CannotNameItUsingJapaneseCharacters.png)
@@ -32,9 +31,18 @@ check(findTestObject('MS/FundData/tesuuryou_jouhou/kounyuuji_tesuuryou_gaku'))
 check(findTestObject('MS/FundData/tesuuryou_jouhou/kounyuuji_tesuuryou_ritsu'))
 ```
 
-I find a big problem here. The name of a Test Object `tesuuryou_jouhou/kaiyakuji_shintaku_zaisan_ryuuhogaku` is not intuitive at all for me. Rather, I want to name it as `手数料情報/解約時信託財産留保額` in my native language Japanese.
+I find a problem here. The name of a Test Object `tesuuryou_jouhou/kaiyakuji_shintaku_zaisan_ryuuhogaku` is not intuitive for me. Rather, I want to name it as `手数料情報/解約時信託財産留保額` in user's own native language (Japanese for me) like this:
 
-I hope Katalon Team to address the I18N problem now to make the product widespread internationally .
+```
+check(findTestObject('MS/FundData/手数料情報/解約時信託財産留保額'))
+check(findTestObject('MS/FundData/手数料情報/解約時手数料額'))
+check(findTestObject('MS/FundData/手数料情報/解約時手数料率'))
+check(findTestObject('MS/FundData/手数料情報/購入時信託財産留保額'))
+check(findTestObject('MS/FundData/手数料情報/購入時手数料額'))
+check(findTestObject('MS/FundData/手数料情報/購入時手数料率'))
+```
+
+I hope Katalon Team to address the I18N problem to make the product welcomed internationally .
 
 # Demo
 
